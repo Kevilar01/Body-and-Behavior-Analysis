@@ -1,0 +1,128 @@
+
+{
+  "nav": {
+    "home": "Início",
+    "mentoring": "Mentoria",
+    "consultation": "Consulta",
+    "blog": "Blog",
+    "resources": "Recursos",
+    "scientificevidence": "Evidência Científica",
+    "about": "Sobre Nós",
+    "contact": "Contato"
+  },
+  "home": {
+    "hero": {
+      "title": "Método de Mapeamento de Análise de Caráter",
+      "subtitle": "Baseado em Caracterologia e Integração Corpo-Mente",
+      "description": "Junte-se a milhares de pessoas que transformaram suas vidas através do nosso comprovado programa de desenvolvimento de caráter de 8 semanas, liderado pela coach especialista Claudia Fisher.",
+      "get_started": "Comece Agora"
+    },
+    "manifest": {
+      "title": "Manifesto",
+      "p1": "Chega um momento em toda jornada…<br />quando o desempenho não satisfaz mais.<br />Quando agradar aos outros se torna pesado demais.<br />Quando as histórias que contamos a nós mesmos não fazem mais sentido.",
+      "p2": "Esse momento não é uma crise.<br />É um chamado."
+    }
+  },
+  "consultation": {
+    "hero": {
+      "title": "Programas de Consulta"
+    },
+    "packages": {
+      "title": "Pacotes de Consulta",
+      "character_analysis": {
+        "title": "Sessão de Mapeamento de Análise de Caráter",
+        "sessions": "1 sessão",
+        "description": "Uma sessão individual fundamental para entender sua estrutura de caráter através da Integração Corpo-Mente."
+      },
+      "vagus_nerve": {
+        "title": "Reset do Nervo Vago + EFT + Aromaterapia",
+        "sessions": "3 sessões",
+        "description": "Uma sessão calmante que combina regulação do sistema nervoso, terapia de tapping e cura sensorial."
+      },
+      "master_key": {
+        "title": "Pacote chave-mestra do Método de Mapeamento de Análise de Caráter",
+        "sessions": "8 sessões",
+        "description": "Mentoria profunda usando o Método de Mapeamento de Análise de Caráter, maestria emocional e design de vida."
+      },
+      "nutrition": {
+        "title": "Nutrição Além do Prato",
+        "sessions": "8 sessões",
+        "description": "Explore a alimentação emocional, traços de sobrevivência e a fome que a comida não pode tocar."
+      },
+      "view_details": "Ver Detalhes"
+    },
+    "what_to_expect": {
+      "title": "O Que Você Pode Esperar",
+      "description": "Cada consulta é uma experiência individual guiada onde exploramos seus padrões psicológicos e físicos únicos através do Método de Mapeamento de Análise de Caráter.",
+      "gain": "Você ganhará:",
+      "gain1": "Uma compreensão mais profunda de seus padrões emocionais e comportamentais",
+      "gain2": "Insight sobre sua conexão corpo-mente",
+      "gain3": "Ferramentas para apoiar a transformação pessoal e autoconsciência"
+    },
+    "reflections": {
+      "title": "Reflexões dos Clientes",
+      "quote1": "Pela primeira vez, me senti verdadeiramente vista—não apenas meus comportamentos, mas o que estava por baixo.",
+      "quote2": "A sessão de mapeamento me ajudou a entender padrões com os quais eu lutei por anos.",
+      "quote3": "Aprendi a ser mais gentil comigo mesmo, e isso mudou tudo."
+    }
+  },
+  "manifest": {
+    "title": "Manifesto",
+    "opening": {
+      "line1": "Chega um momento em toda jornada…",
+      "line2": "quando o desempenho não satisfaz mais.",
+      "line3": "Quando agradar aos outros se torna pesado demais.",
+      "line4": "Quando as histórias que contamos a nós mesmos não fazem mais sentido."
+    },
+    "not_crisis": "Esse momento não é uma crise.",
+    "its_calling": "É um chamado.",
+    "calling_to_strip": "Um chamado para tirar a armadura,",
+    "pause_noise": "pausar o ruído,",
+    "meet_version": "para finalmente encontrar a versão de você que estava esperando —",
+    "not_fixed": "não para ser consertada, mas para ser vista.",
+    "essence_unveiled": "Essence Unveiled não é sobre perfeição, conserto ou se tornar outra pessoa.",
+    "remembering_self": "É sobre lembrar o eu que sempre esteve lá — antes do medo, antes das máscaras, antes dos \"deveria\".",
+    "transformation_space": "Este é um espaço para a transformação que começa por dentro.",
+    "through_analysis": "Através da Análise de Caráter, inteligência corporal e integração emocional,",
+    "reconnect_truth": "você é convidado a se reconectar com a verdade sob as defesas.",
+    "essence_not_build": "Porque sua essência não é algo que você precisa construir.",
+    "born_with": "É algo com que você nasceu.",
+    "time_to_live": "Agora é hora de viver a partir dela."
+  },
+  "pages": {
+    "notfound": {
+      "title": "404",
+      "subtitle": "Oops! Página não encontrada",
+      "gohome": "Voltar para a página inicial"
+    },
+    "char_analysis": {
+      "back": "Voltar para Consulta",
+      "title": "Sessão de Mapeamento de Análise de Caráter",
+      "session_info": "1 Sessão",
+      "description1": "Uma sessão individual fundamental para entender sua estrutura de caráter através da Integração Corpo-Mente.",
+      "description2": "Descubra o mapa de seus padrões emocionais e desvende a sabedoria que seu corpo guarda sobre quem você realmente é.",
+      "cta": {
+        "title": "Comece Sua Jornada",
+        "description": "Comece com um entendimento fundamental da sua estrutura de caráter.",
+        "button": "Agende Sua Sessão"
+      }
+    },
+    "vagus": {
+      "back": "Voltar para Consulta",
+      "title": "Reset do Nervo Vago + EFT + Aromaterapia",
+      "description1": "Uma sessão calmante que combina regulação do sistema nervoso, terapia de tapping e cura sensorial.",
+      "description2": "Experimente um relaxamento profundo e um reset do sistema nervoso através desta abordagem de cura integrada.",
+      "cta": {
+        "title": "Reset & Restauração",
+        "description": "Experimente uma cura e regulação profundas do sistema nervoso.",
+        "button": "Agende Sua Sessão"
+      }
+    }
+  },
+  "footer": {
+    "description": "Transforme seu caráter e desvende seu verdadeiro potencial com métodos de coaching comprovados.",
+    "quicklinks": "Links Rápidos",
+    "connect": "Conecte-se Conosco",
+    "rights": "© 2025 CharacterCoach. Todos os direitos reservados."
+  }
+}

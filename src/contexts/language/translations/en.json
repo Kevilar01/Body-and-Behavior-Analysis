@@ -1,0 +1,128 @@
+
+{
+  "nav": {
+    "home": "Home",
+    "mentoring": "Mentoring",
+    "consultation": "Consultation",
+    "blog": "Blog",
+    "resources": "Resources",
+    "scientificevidence": "Scientific Evidence",
+    "about": "About Us",
+    "contact": "Contact Us"
+  },
+  "home": {
+    "hero": {
+      "title": "Character Analysis Mapping Method",
+      "subtitle": "Based on Characterology and BodyMind Integration",
+      "description": "Join thousands who have transformed their lives through our proven 8-week character development program led by expert coach Claudia Fisher.",
+      "get_started": "Get Started"
+    },
+    "manifest": {
+      "title": "Manifest",
+      "p1": "There comes a moment in every journey…<br />when performance no longer satisfies.<br />When pleasing others becomes too heavy.<br />When the stories we tell ourselves no longer make sense.",
+      "p2": "That moment is not a crisis.<br />It's a calling."
+    }
+  },
+  "consultation": {
+    "hero": {
+      "title": "Consultation Programs"
+    },
+    "packages": {
+      "title": "Consultation Packages",
+      "character_analysis": {
+        "title": "Character Analysis Mapping Session",
+        "sessions": "1 session",
+        "description": "A foundational 1-on-1 session to understand your character structure through BodyMind Integration."
+      },
+      "vagus_nerve": {
+        "title": "Vagus Nerve Reset + EFT + Aromatherapy",
+        "sessions": "3 sessions",
+        "description": "A calming session combining nervous system regulation, tapping therapy, and sensory healing."
+      },
+      "master_key": {
+        "title": "Character Analysis Mapping Method master key package",
+        "sessions": "8 sessions",
+        "description": "Deep-dive mentorship using the Character Analysis Mapping Method, emotional mastery & life design."
+      },
+      "nutrition": {
+        "title": "Nutrition Beyond the Plate",
+        "sessions": "8 sessions",
+        "description": "Explore emotional eating, survival traits, and the hunger that food can't touch."
+      },
+      "view_details": "View Details"
+    },
+    "what_to_expect": {
+      "title": "What You Can Expect",
+      "description": "Each consultation is a one-on-one guided experience where we explore your unique psychological and physical patterns through the Character Analysis Mapping Method.",
+      "gain": "You'll gain:",
+      "gain1": "A deeper understanding of your emotional and behavioral patterns",
+      "gain2": "Insight into your body-mind connection",
+      "gain3": "Tools to support personal transformation and self-awareness"
+    },
+    "reflections": {
+      "title": "Client Reflections",
+      "quote1": "For the first time, I felt truly seen—not just my behaviors, but what was underneath.",
+      "quote2": "The mapping session helped me make sense of patterns I've struggled with for years.",
+      "quote3": "I've learned to be kinder to myself, and that has changed everything."
+    }
+  },
+  "manifest": {
+    "title": "Manifest",
+    "opening": {
+      "line1": "There comes a moment in every journey…",
+      "line2": "when performance no longer satisfies.",
+      "line3": "When pleasing others becomes too heavy.",
+      "line4": "When the stories we tell ourselves no longer make sense."
+    },
+    "not_crisis": "That moment is not a crisis.",
+    "its_calling": "It's a calling.",
+    "calling_to_strip": "A calling to strip the armor,",
+    "pause_noise": "to pause the noise,",
+    "meet_version": "to finally meet the version of you that's been waiting —",
+    "not_fixed": "not to be fixed, but to be seen.",
+    "essence_unveiled": "Essence Unveiled is not about perfection, fixing, or becoming someone else.",
+    "remembering_self": "It's about remembering the self that was always there — before the fear, before the masks, before the shoulds.",
+    "transformation_space": "This is a space for transformation that begins within.",
+    "through_analysis": "Through Character Analysis, body intelligence, and emotional integration,",
+    "reconnect_truth": "you are invited to reconnect with the truth beneath the defenses.",
+    "essence_not_build": "Because your essence is not something you need to build.",
+    "born_with": "It's something you were born with.",
+    "time_to_live": "Now it's time to live from it."
+  },
+  "pages": {
+    "notfound": {
+      "title": "404",
+      "subtitle": "Oops! Page not found",
+      "gohome": "Return to Home"
+    },
+    "char_analysis": {
+      "back": "Back to Consultation",
+      "title": "Character Analysis Mapping Session",
+      "session_info": "1 Session",
+      "description1": "A foundational 1-on-1 session to understand your character structure through BodyMind Integration.",
+      "description2": "Discover the blueprint of your emotional patterns and unlock the wisdom your body holds about who you truly are.",
+      "cta": {
+        "title": "Begin Your Journey",
+        "description": "Start with a foundational understanding of your character structure.",
+        "button": "Book Your Session"
+      }
+    },
+    "vagus": {
+      "back": "Back to Consultation",
+      "title": "Vagus Nerve Reset + EFT + Aromatherapy",
+      "description1": "A calming session combining nervous system regulation, tapping therapy, and sensory healing.",
+      "description2": "Experience deep relaxation and nervous system reset through this integrated healing approach.",
+      "cta": {
+        "title": "Reset & Restore",
+        "description": "Experience profound nervous system healing and regulation.",
+        "button": "Book Your Session"
+      }
+    }
+  },
+  "footer": {
+    "description": "Transform your character and unlock your true potential with proven coaching methods.",
+    "quicklinks": "Quick Links",
+    "connect": "Connect With Us",
+    "rights": "© 2025 CharacterCoach. All rights reserved."
+  }
+}
