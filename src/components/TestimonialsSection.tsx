@@ -21,7 +21,7 @@ const TestimonialsSection = () => {
             <CardContent className="p-6">
               <div className="flex items-center mb-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=60&h=60&fit=crop&crop=face" 
+                  src="/lovable-uploads/cara.jpg" 
                   alt="Sarah"
                   className="w-12 h-12 rounded-full mr-4 object-cover"
                 />

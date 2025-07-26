@@ -16,7 +16,7 @@ const PreparationSection = () => {
           {/* Body Analysis Diagram */}
           <div className="mb-12">
             <img
-              src="/lovable-uploads/897e8239-1bbc-463d-92ae-8c20e8d30909.png"
+              src="/lovable-uploads/consultaion.jpg"
               alt="Body analysis diagram showing 6 body parts: Cabeça, Olhos, Boca, Tronco, Quadril, Pernas"
               className="w-full max-w-2xl mx-auto h-auto rounded-lg shadow-sm"
             />

@@ -80,7 +80,7 @@ const MasterKey = () => {
             </h1>
           </div>
           <h2 className="text-2xl mb-6 animate-fade-in animation-delay-300">
-            Where Emotional Pain Meets Inner Shift
+            8 session journey to character transformation change for : 8 Sessions journey through the character structure inner reconnection
           </h2>
           <div className="flex items-center gap-6 text-lg animate-fade-in animation-delay-500">
             <span>8 Sessions</span>
@@ -109,7 +109,7 @@ const MasterKey = () => {
               </div>
               <div className="hidden md:block animate-fade-in animation-delay-300">
                 <img 
-                  src="https://images.unsplash.com/photo-1500673922987-e212871fec22?w=500&h=500&fit=crop" 
+                  src="/lovable-uploads/hills.jpg" 
                   alt="Mystical forest lights representing an inner shift and transformation" 
                   className="rounded-lg shadow-xl w-full h-auto object-cover aspect-square"
                 />

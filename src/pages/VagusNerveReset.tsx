@@ -35,7 +35,7 @@ const VagusNerveReset = () => {
             </div>
             <div className="animate-fade-in animation-delay-300">
               <img 
-                src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=500&h=500&fit=crop" 
+                src="/lovable-uploads/sunflower.jpg"
                 alt="Calming flowers representing aromatherapy and sensory healing" 
                 className="rounded-lg shadow-xl w-full h-auto object-cover aspect-square"
                 loading="lazy"

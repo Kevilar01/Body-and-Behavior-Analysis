@@ -36,17 +36,56 @@ const CharacterAnalysis = () => {
             <div className="prose prose-base sm:prose-lg text-neutral-taupe leading-relaxed space-y-4 sm:space-y-6 animate-fade-in">
               <p className="text-lg sm:text-xl font-medium text-secondary leading-relaxed">
                 {/* {t('char_analysis.description1')} */}
-                {t('A foundational session')} 
+                {t('What to Expect From Your Body & Behavior Analysis Session')} 
               </p>
+
               
-              <p className="text-sm sm:text-base leading-relaxed">
-                {/* {t('char_analysis.description2')} */}
-                {t('We begin with a full Body and Behavior Analysis Mapping Method session, observing your body and patterns to understand the emotional roots behind your difficulties, challenges, and concerns.')}
-              </p>
+              
+           <div className="text-sm sm:text-base leading-relaxed space-y-4">
+  <p>Your session will unfold in 3 clear stages — each designed to help you reconnect with how you truly function, feel, and flow in life.</p>
+
+  <h4 className="font-semibold">1. Initial Alignment</h4>
+  <p>
+    We’ll begin with a short introduction where I explain the purpose of the session and what you can expect from a Character Structure Analysis.
+    You’ll understand your internal resources, emotional strengths, and how to access them in your favor.
+  </p>
+  <p>
+    At this point, I’ll also ask you to share 3 specific questions or problems you're currently facing. These will be revisited in the final part of the session, once we’ve mapped your structure.
+  </p>
+
+  <h4 className="font-semibold">2. Investigation & Mapping</h4>
+  <p>
+    We’ll begin with a brief pre-analysis questionnaire to identify any emotional or physical history that may influence your structure.
+    Then, I’ll observe 6 specific areas of your body— through video or live camera/pictures — which allows me to assess your character patterns in depth.
+  </p>
+  <p>These areas include: <strong>Head, Eyes, Mouth, Torso, Hips, and Legs</strong></p>
+  <p>
+    Each one reflects how your nervous system learned to protect you — and how it still shapes your thoughts, emotions, and behaviors today.
+  </p>
+
+  <h4 className="font-semibold">3. Your Personalized Feedback</h4>
+  <p>In the first part of the feedback I’ll explain how you function:</p>
+  <ul className="list-disc list-inside ml-4">
+    <li>Your emotional strengths and internal resources</li>
+    <li>Your internal conflicts and protective patterns</li>
+    <li>Your basic needs and how to meet them</li>
+    <li>Environments that support or block your natural flow</li>
+  </ul>
+  <p>
+    In the second part, I’ll answer the <em>three personal questions</em> you brought at the beginning — with clarity on why those issues are present and how to move forward.
+  </p>
+  <p>
+    You’ll leave the session with a sense of recognition, self-compassion, and a clear direction aligned with your truth and emotional needs.
+  </p>
+  <p className="italic">
+    This session isn’t about fixing who you are — it’s about remembering how you were built… and learning how to finally live from that place with confidence.
+  </p>
+</div>
+
             </div>
             <div className="animate-fade-in animation-delay-300">
               <img 
-                src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=500&fit=crop&auto=format&q=75" 
+                src="/lovable-uploads/consultation2.jpg" 
                 alt="Abstract image of a circuit board representing character mapping" 
                 className="rounded-lg shadow-xl w-full h-auto object-cover aspect-square"
                 loading="lazy"

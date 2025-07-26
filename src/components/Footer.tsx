@@ -57,14 +57,14 @@ const Footer = () => {
             <h4 className="text-base sm:text-lg font-semibold">{t('footer.connect')}</h4>
             <div className="flex justify-center sm:justify-start space-x-4 sm:space-x-6">
               <a 
-                href="#" 
+                href="https://www.instagram.com/characterstructuredecoded" 
                 className="text-gray-200 hover:text-white transition-colors hover:scale-110 transform duration-200 p-2 hover:bg-white/10 rounded-lg"
                 aria-label="Instagram"
               >
                 <Instagram size={20} className="sm:w-6 sm:h-6" />
               </a>
               <a 
-                href="#" 
+                 href="https://www.linkedin.com/in/claudia-fisher-31a001376?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" 
                 className="text-gray-200 hover:text-white transition-colors hover:scale-110 transform duration-200 p-2 hover:bg-white/10 rounded-lg"
                 aria-label="LinkedIn"
               >

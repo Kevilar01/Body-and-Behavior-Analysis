@@ -19,7 +19,7 @@ const StorySection = () => {
               <div className="absolute -inset-4 bg-white/30 backdrop-blur-xl rounded-2xl border border-white/20 shadow-xl"></div>
               <div className="relative overflow-hidden rounded-xl shadow-xl bg-gradient-to-br from-white/30 to-transparent backdrop-blur-sm border border-white/30">
                 <img
-                  src="/lovable-uploads/a09eef40-97a4-4df3-8452-930ef15914ad.png"
+                  src="/lovable-uploads/_MG_3512.JPG"
                   alt="Professional portrait"
                   // className="w-full h-80 lg:h-96 object-cover object-center transition-all duration-500 hover:scale-105"
                   className="w-full h-auto object-contain transition-all duration-500 hover:scale-105"

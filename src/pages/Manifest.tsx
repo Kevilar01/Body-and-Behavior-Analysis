@@ -1,4 +1,3 @@
-
 import { useLanguage } from '@/contexts/LanguageContext';
 
 const Manifest = () => {
@@ -11,15 +10,30 @@ const Manifest = () => {
         {/* Background Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-20 left-10 w-40 h-40 bg-gradient-to-br from-primary/10 to-secondary/5 rounded-full blur-3xl animate-float"></div>
-          <div className="absolute bottom-20 right-10 w-52 h-52 bg-gradient-to-br from-secondary/10 to-accent/5 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }}></div>
-          
+          <div
+            className="absolute bottom-20 right-10 w-52 h-52 bg-gradient-to-br from-secondary/10 to-accent/5 rounded-full blur-3xl animate-float"
+            style={{ animationDelay: '2s' }}
+          ></div>
+
           {/* Subtle Grid Pattern */}
-          <div className="absolute inset-0 opacity-[0.02]" style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%234A6B6B' fill-opacity='0.4'%3E%3Ccircle cx='30' cy='30' r='1.5'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
-          }}></div>
+          <div
+            className="absolute inset-0 opacity-[0.02]"
+            style={{
+              backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%234A6B6B' fill-opacity='0.4'%3E%3Ccircle cx='30' cy='30' r='1.5'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+            }}
+          ></div>
         </div>
 
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Styled Image */}
+          <div className="mb-12 flex justify-center">
+            <img
+              src="/lovable-uploads/_MG_3512.JPG"
+              alt="Manifest Illustration"
+              className="w-[300px] h-auto rounded-2xl shadow-lg"
+            />
+          </div>
+
           {/* Page Title */}
           <div className="text-center mb-16 animate-fade-in">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-elegante text-primary mb-4">
@@ -32,7 +46,6 @@ const Manifest = () => {
           <div className="relative animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <div className="absolute -inset-8 bg-white/60 backdrop-blur-sm rounded-3xl border border-white/40 shadow-xl"></div>
             <div className="relative p-8 lg:p-12 space-y-8">
-              
               {/* Opening Lines */}
               <div className="text-center space-y-6">
                 <p className="text-2xl sm:text-3xl lg:text-4xl font-elegante text-primary leading-relaxed">
@@ -81,9 +94,7 @@ const Manifest = () => {
               {/* Transformation Section */}
               <div className="space-y-6 text-lg sm:text-xl text-neutral-taupe font-montserrat leading-relaxed text-center">
                 <p>{t('manifest.transformation_space')}</p>
-                <p>
-                  {t('manifest.through_analysis')}
-                </p>
+                <p>{t('manifest.through_analysis')}</p>
                 <p>{t('manifest.reconnect_truth')}</p>
               </div>
 
@@ -104,7 +115,6 @@ const Manifest = () => {
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
