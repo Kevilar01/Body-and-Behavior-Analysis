@@ -29,7 +29,7 @@ const CorePromiseSection = () => {
             <div className="absolute -inset-6 bg-white/60 backdrop-blur-sm rounded-3xl border border-white/40 shadow-xl"></div>
             <div className="relative p-8 lg:p-12">
               <p className="text-2xl sm:text-3xl lg:text-4xl font-elegante text-primary leading-relaxed mb-8">
-                I help you understand how your body and emotions were shaped — and how you can reconnect with who you truly are, with safety, clarity, and deep self-love.
+                I help you understand how your mental and emotional patterns were shaped and how they influence the way you feel, think, and act today. With this awareness, you can reconnect with your authentic self, release what no longer serves you, and build a life grounded in clarity, resilience, and self-confidence — all within a safe and supportive space.
               </p>
               
               <div className="space-y-6 text-lg sm:text-xl text-neutral-taupe font-montserrat leading-relaxed">

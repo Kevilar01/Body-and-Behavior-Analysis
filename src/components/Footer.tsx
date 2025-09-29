@@ -77,13 +77,14 @@ const Footer = () => {
               >
                 <Mail size={20} className="sm:w-6 sm:h-6" />
               </a>
-              <a 
-                href="https://www.youtube.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-200 hover:text-white transition-colors hover:scale-110 transform duration-200 p-2 hover:bg-white/10 rounded-lg"
-                aria-label="YouTube"
-              >
+          <a 
+               href="https://www.youtube.com/@characterstructuredecoded" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               className="text-gray-200 hover:text-white transition-colors hover:scale-110 transform duration-200 p-2 hover:bg-white/10 rounded-lg"
+               aria-label="YouTube - Character Structure Decoded"
+>
+
                 <Youtube size={20} className="sm:w-6 sm:h-6" />
               </a>
             </div>

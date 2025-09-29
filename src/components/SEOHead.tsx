@@ -14,7 +14,7 @@ interface SEOHeadProps {
 const SEOHead: React.FC<SEOHeadProps> = ({
   title = "Body and Behavior Analysis - Character Transformation Method",
   description = "Helping you reconnect with the essence beneath your patterns through evidence-based coaching methods and compassionate support.",
-  keywords = "character analysis, behavior analysis, personal transformation, coaching, self-improvement",
+  keywords = "behavioral analysis, behavior analysis, personal transformation, coaching, self-improvement",
   image = "/og-image.jpg",
   url = typeof window !== 'undefined' ? window.location.href : '',
   type = "website"

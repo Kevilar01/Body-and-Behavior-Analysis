@@ -23,17 +23,15 @@ const Manifest = () => {
             }}
           ></div>
         </div>
-
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Styled Image */}
-          <div className="mb-12 flex justify-center">
-            <img
-              src="/lovable-uploads/_MG_3512.JPG"
-              alt="Manifest Illustration"
-              className="w-[300px] h-auto rounded-2xl shadow-lg"
-            />
-          </div>
-
+<div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+  {/* Styled Image */}
+  <div className="mb-12 flex justify-center">
+    <img
+      src="/lovable-uploads/_MG_3512.JPG"
+      alt="Manifest Illustration"
+      className="w-[600px] h-auto rounded-2xl shadow-lg"
+    />
+  </div>
           {/* Page Title */}
           <div className="text-center mb-16 animate-fade-in">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-elegante text-primary mb-4">

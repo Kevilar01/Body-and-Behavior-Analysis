@@ -104,20 +104,30 @@ const CharacterTraitsSection = () => {
           {/* Introduction Text */}
           <div className="max-w-4xl mx-auto space-y-6">
             <p className="font-montserrat text-lg md:text-xl text-neutral-taupe leading-relaxed animate-fade-in animation-delay-300">
-              Did you know that the way you think, act, feel, and even your physical characteristics are connected to how your nervous system was shaped? This process is called <span className="font-semibold text-primary">myelination of the nervous system</span>, and it is so powerful that it determines your emotional, mental, character patterns and physical appearance.
+              Did you know that the way you think, act, feel, and even your physical characteristics are directly connected to how your nervous system was shaped? This process is called <span className="font-semibold text-primary">myelination of the nervous system</span>, and it is so powerful that it not only influences your emotional and mental patterns, but also reflects in your body structure, expressions and how you perceive the world around you.
             </p>
             
             <p className="font-montserrat text-lg text-neutral-taupe leading-relaxed animate-fade-in animation-delay-400">
-              Our character traits begin forming even before birth, while we are still in the womb, as the myelination of the nervous system shapes the way we process emotions and experiences. This process continues until around the age of seven, deeply influencing not just how we think and feel but also how our physical body develops.
+              Myelination begins in early childhood. Every time you experience something—whether love, rejection, humiliation, safety, or conflict—your nervous system records it. These experiences "wire" your brain and body together, strengthening the pathways that shape the way you react to life. In other words, your patterns of behavior and emotion are not random; they are deeply connected to the way your nervous system developed as you adapted to your early environment.
             </p>
             
             <p className="font-montserrat text-lg text-neutral-taupe leading-relaxed animate-fade-in animation-delay-500">
-              Freud, the father of psychoanalysis, suggested that within the body, there is a mind. Reich took this further and demonstrated that mind, emotions, and body are one—they do not function separately. The way we respond to situations emotionally and mentally is reflected in our posture, facial structure, and even the way we move and interact with the world, the mind and body are deeply interconnected. He argued that emotional trauma and unresolved conflicts don't just exist in the mind but also manifest physically leading to the development of Body and Behavior Analysis.
+              This understanding began with Sigmund Freud, who explored the unconscious mind and its impact on human behavior. Then Wilhelm Reich went further, observing that emotional and behavioral patterns were also mirrored in the body. Later, his student Alexander Lowen developed this into a structured system, identifying the five character traits (Schizoid, Oral, Masoquist, Psycopath, Rigid)—survival strategies created to protect us from pain, but which also hold our greatest strengths.
             </p>
             
-            <div className="p-6 bg-white/60 backdrop-blur-sm rounded-xl border border-primary/10 shadow-lg animate-fade-in animation-delay-600">
+            <div className="p-6 bg-amber-50/80 backdrop-blur-sm rounded-xl border-l-4 border-amber-500 shadow-md animate-fade-in animation-delay-600">
+              <p className="font-montserrat text-base text-neutral-taupe leading-relaxed">
+                <span className="text-amber-600 font-bold text-lg">⚠</span> It is important to note that the names of the five character traits are not mental illnesses or disorders. They are descriptive terms chosen by scientists to explain personality structures and tendencies, not diagnostic labels.
+              </p>
+            </div>
+            
+            <p className="font-montserrat text-lg text-neutral-taupe leading-relaxed animate-fade-in animation-delay-700">
+              Decades later, Eulton Euler, through his work in O Corpo Explica, advanced this understanding by creating the Character Structure Mapping Tool. This tool allows us to measure, with precision, the percentage of each of the five character traits present in a person's personality. With this, we can see not just the patterns that cause conflict and pain, but also the unique resources, talents, and strengths that make each individual authentic and unique.
+            </p>
+            
+            <div className="p-6 bg-white/60 backdrop-blur-sm rounded-xl border border-primary/10 shadow-lg animate-fade-in animation-delay-800">
               <p className="font-montserrat text-lg text-primary leading-relaxed font-medium">
-                A <span className="font-bold">Body and Behavior Analyst</span> is someone that is trained in understanding and working with the relationship between emotional regulation, thought patterns and physical expressions/body shape.
+                And this is where my work comes in. Through <span className="font-bold">Body and Behavior Analysis</span>, I help you uncover these patterns within yourself. By understanding how your traits combine, and how they influence the way you feel, think, and act, you gain clarity about your emotional needs, your challenges, and—most importantly—your inner resources. This clarity creates space for true transformation: moving away from old survival patterns, and stepping into a life of authenticity, balance, and deeper self-connection.
               </p>
             </div>
           </div>
