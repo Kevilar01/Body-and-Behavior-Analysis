@@ -1,73 +1,149 @@
-# Welcome to your Lovable project
+TailwindCSS Configuration – Project README
 
-## Project info
+This project uses a fully customized Tailwind CSS configuration designed for modern frontend development with TypeScript. The setup includes an elegant color system, fluid animations, extended typography, and complete support for shadcn/ui components.
 
-**URL**: https://lovable.dev/projects/f9221d7a-277c-41fd-bb3b-bb28b0427e16
+📦 Installation & Setup
 
-## How can I edit this code?
+Ensure you have Tailwind installed:
 
-There are several ways of editing your application.
+npm install tailwindcss postcss autoprefixer
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f9221d7a-277c-41fd-bb3b-bb28b0427e16) and start prompting.
+Initialize Tailwind (if not already):
 
-Changes made via Lovable will be committed automatically to this repo.
+npx tailwindcss init -p
 
-**Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+The provided configuration replaces your default tailwind.config.ts.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🗂 Project Structure
 
-Follow these steps:
+Tailwind scans the following folders for CSS classes:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+/pages/**/*.{ts,tsx}
+/components/**/*.{ts,tsx}
+/app/**/*.{ts,tsx}
+/src/**/*.{ts,tsx}
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+This ensures efficient tree-shaking and minimal bundle size.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+🎨 Theme & Styling Features
+🌗 Dark Mode
 
-**Edit a file directly in GitHub**
+Enabled via class strategy
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+<html class="dark">
 
-**Use GitHub Codespaces**
+🖋 Custom Typography
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Two custom font families are included:
 
-## What technologies are used for this project?
+Poppins – clean, modern sans-serif
 
-This project is built with:
+Playfair Display (as elegante) – elegant serif for headers & hero sections
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Usage example:
 
-## How can I deploy this project?
+<h1 class="font-elegante">Welcome</h1>
+<p class="font-poppins">Modern design system</p>
 
-Simply open [Lovable](https://lovable.dev/projects/f9221d7a-277c-41fd-bb3b-bb28b0427e16) and click on Share -> Publish.
+🎨 Modern Color System
 
-## Can I connect a custom domain to my Lovable project?
+Inspired by interior design aesthetics, the palette includes warm neutrals and deep tones.
 
-Yes, you can!
+Primary Colors
+Name	Hex
+primary	#4A6B6B
+secondary	#bc9941
+accent	#91374c
+Neutral Colors
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+neutral.light → #F8F6F3
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+neutral.taupe → #B8A898
+
+Background
+
+background.DEFAULT → white
+
+background.cream → soft cream
+
+shadcn/ui Support
+
+Includes all required CSS variable mappings:
+
+card
+
+popover
+
+muted
+
+ring
+
+sidebar
+… and more.
+
+This ensures theme consistency for components like buttons, dialogs, and dropdowns.
+
+🧱 Responsive Container Settings
+
+Centered layout
+
+Default padding: 2rem
+
+Custom 2XL breakpoint: 1400px
+
+container: {
+  center: true,
+  padding: "2rem",
+  screens: { "2xl": "1400px" },
+}
+
+✨ Animations
+
+Custom accordion animations for dropdowns, FAQs, and collapsibles:
+
+accordion-down: height 0 → full height
+accordion-up: full height → 0
+
+
+Registered under:
+
+animation: {
+  "accordion-down": "accordion-down 0.2s ease-out",
+  "accordion-up": "accordion-up 0.2s ease-out",
+}
+
+
+Smooth, modern animations are enabled via:
+
+tailwindcss-animate Plugin
+plugins: [tailwindcssAnimate]
+
+🟦 Border Radius System
+
+Uses CSS variables so your UI automatically adapts to the theme:
+
+lg → var(--radius)
+
+md → calc(var(--radius) - 2px)
+
+sm → calc(var(--radius) - 4px)
+
+Perfect for consistent component rounding.
+
+🚀 Usage Example
+<div class="bg-primary text-primary-foreground p-6 rounded-lg font-poppins">
+  Modern Tailwind Design
+</div>
+
+🧩 Technologies Used
+
+Tailwind CSS
+
+TypeScript
+
+shadcn/ui color variables
+
+tailwindcss-animate plugin
