@@ -1,3 +1,11 @@
+for the footer code it is in components
+
+hero section for home page is also in components 
+
+
+
+
+
 TailwindCSS Configuration – Project README
 
 This project uses a fully customized Tailwind CSS configuration designed for modern frontend development with TypeScript. The setup includes an elegant color system, fluid animations, extended typography, and complete support for shadcn/ui components.

@@ -12,10 +12,11 @@ interface SEOHeadProps {
 }
 
 const SEOHead: React.FC<SEOHeadProps> = ({
-  title = "Body and Behavior Analysis - Character Transformation Method",
+  title = "Body and Behavior Analysis - essence beneath your patterns through evidence-based coaching methods and compassionate support",
   description = "Helping you reconnect with the essence beneath your patterns through evidence-based coaching methods and compassionate support.",
-  keywords = "behavioral analysis, behavior analysis, personal transformation, coaching, self-improvement",
-  image = "/og-image.jpg",
+  keywords = "behavioral analysis, behavior analysis, personal transformation, coaching, self-improvement, body and behavior , claudia fisher ",
+  // image = "/og-image.jpg",
+  image = "/lovable-uploads/_MG_3512.JPG",
   url = typeof window !== 'undefined' ? window.location.href : '',
   type = "website"
 }) => {

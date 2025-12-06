@@ -57,7 +57,7 @@ const Footer = () => {
             <h4 className="text-base sm:text-lg font-semibold">{t('footer.connect')}</h4>
             <div className="flex justify-center sm:justify-start space-x-4 sm:space-x-6">
               <a 
-                href="https://www.instagram.com/characterstructuredecoded" 
+                href="https://www.instagram.com/self_healing_project" 
                 className="text-gray-200 hover:text-white transition-colors hover:scale-110 transform duration-200 p-2 hover:bg-white/10 rounded-lg"
                 aria-label="Instagram"
               >
@@ -78,11 +78,11 @@ const Footer = () => {
                 <Mail size={20} className="sm:w-6 sm:h-6" />
               </a>
           <a 
-               href="https://www.youtube.com/@characterstructuredecoded" 
+               href="https://www.youtube.com/@selfhealingproject" 
                target="_blank" 
                rel="noopener noreferrer"
                className="text-gray-200 hover:text-white transition-colors hover:scale-110 transform duration-200 p-2 hover:bg-white/10 rounded-lg"
-               aria-label="YouTube - Character Structure Decoded"
+               aria-label="YouTube - Self healing project"
 >
 
                 <Youtube size={20} className="sm:w-6 sm:h-6" />
